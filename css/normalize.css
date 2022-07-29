@@ -146,8 +146,8 @@ html {
   }
   a {
     --text-opacity: 1;
-    color: #FDE3C8;
-    color: rgba(253, 227, 200, var(--text-opacity));
+    color: #DA9F18;
+    color: rgba(218, 159, 24, var(--text-opacity));
     text-decoration: none;
   }
   a:hover {
@@ -293,8 +293,8 @@ html {
   }
   .summary-link:hover {
     --text-opacity: 1;
-    color: #FDE3C8;
-    color: rgba(253, 227, 200, var(--text-opacity));
+    color: #DA9F18;
+    color: rgba(218, 159, 24, var(--text-opacity));
   }
   
   .footnotes {
@@ -439,8 +439,8 @@ html {
   }
   .bg-blue {
     --bg-opacity: 1;
-    background-color: #0E38B1;
-    background-color: rgba(14, 56, 177, var(--bg-opacity));
+    background-color: #E7E7E7;
+    background-color: rgba(231, 231, 231, var(--bg-opacity));
   }
   .border-darkBlue {
     --border-opacity: 1;
@@ -625,8 +625,8 @@ html {
   }
   .text-white {
     --text-opacity: 1;
-    color: #56dbc2;
-    color: rgba(86, 219, 194, var(--text-opacity));
+    color: #766C08;
+    color: rgba(118, 108, 8, var(--text-opacity));
   }
   .text-darkBlue {
     --text-opacity: 1;
