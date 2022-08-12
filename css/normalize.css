@@ -3,10 +3,14 @@
 @font-face {
   font-family: NoiGroteskTrial-Regular;
   src: url(fonts/NoiGroteskTrial-Regular.ttf) format('truetype'); 
+  font-style: normal;
+  font-weight: 400;
 }
 @font-face {
-  font-family: NoiGroteskTrial-Bold;
-  src: url(fonts/NoiGroteskTrial-Bold.ttf) format('truetype');
+  font-family: NoiGroteskTrial-SemiBold;
+  src: url(fonts/NoiGroteskTrial-SemiBold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 600;
 }
 html {
     line-height: 1.3;
@@ -88,12 +92,12 @@ html {
   }
  
   h1 {
-    font-family: 'NoiGroteskTrial-Regular', sans-serif;
+    font-family: 'NoiGroteskTrial-SemiBold', sans-serif;
     font-size: inherit;
     font-weight: inherit;
   }
   h2 {
-    
+    font-family: 'NoiGroteskTrial-Regular', sans-serif;
     font-size: inherit;
     font-weight: inherit;
   }
@@ -191,6 +195,31 @@ html {
     background-repeat: no-repeat;
     background-position: 0 95%;
     color: inherit;
+  }
+  .content ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    display: inline-block;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 1.875rem;
+  }
+  @media (min-width: 640px) {
+    .content h2,
+    .content h3,
+    .content h4,
+    .content h5,
+    .content h6 {
+      font-size: 4rem;
+    }
   }
   @media (min-width: 768px) {
     .content blockquote {
