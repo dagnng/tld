@@ -169,6 +169,11 @@ html {
     background-position: 0 95%;
     color: inherit;
   }
+  @media (min-width: 768px) {
+    .content blockquote {
+      paddin-left: 1.2em;
+    }
+  }
   .light-scheme .content mark {
     background-image: linear-gradient(to left, #FDE3C8, #FDE3C8);
   }
